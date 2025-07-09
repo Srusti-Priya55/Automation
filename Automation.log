@@ -1,0 +1,1444 @@
+2025-07-01 10:48:18,427 - INFO - Automation script started.
+2025-07-01 10:48:18,428 - INFO - Starting Webdriver
+2025-07-01 10:48:18,428 - INFO - ====== WebDriver manager ======
+2025-07-01 10:48:19,626 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 10:48:19,722 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 10:48:19,799 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 10:48:20,994 - INFO - Opening URL: https://xdr.us.security.cisco.com/
+2025-07-01 10:48:27,405 - INFO - Entering the text :kspriya+us@cisco.com
+2025-07-01 10:48:27,764 - INFO - Entered Email
+2025-07-01 10:48:27,765 - INFO - Entering the text :Password!9
+2025-07-01 10:48:32,376 - INFO - Entered Password
+2025-07-01 10:48:32,376 - INFO - Waiting for Duo authentication...
+2025-07-01 10:49:04,205 - INFO - Navigated to Device Events
+2025-07-01 10:49:13,353 - INFO - Successfully clicked on UID link.
+2025-07-01 10:49:51,354 - INFO - Navigated to clients
+2025-07-01 10:50:42,755 - INFO - Browser closed.
+2025-07-01 10:50:42,756 - INFO - Execution completed successfully
+2025-07-01 10:50:45,840 - INFO - ========== STARTING UNINSTALL ==========
+2025-07-01 10:50:45,840 - INFO - Looking for: Cisco Secure Client - AnyConnect VPN
+2025-07-01 10:50:56,151 - INFO - Launched uninstaller for: Cisco Secure Client - AnyConnect VPN 
+2025-07-01 10:51:05,005 - INFO - Handling multiple OK popups...
+2025-07-01 10:51:20,374 - INFO - Clicked: ok in 'Cisco Secure Client - AnyConnect VPN'
+2025-07-01 10:51:44,936 - INFO - Waiting 70 seconds for uninstallation to complete...
+2025-07-01 10:52:54,942 - INFO - Looking for: Cisco Secure Client - Cloud Management
+2025-07-01 10:53:05,342 - WARNING - Cisco Secure Client - Cloud Management not found.
+2025-07-01 10:53:05,342 - INFO - Looking for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-01 10:53:16,400 - WARNING - Cisco Secure Client - Diagnostics and Reporting Tool not found.
+2025-07-01 10:53:16,401 - INFO - ========== UNINSTALL COMPLETED ==========
+2025-07-01 10:53:16,401 - INFO - ========== STARTING FOLDER CLEANUP ==========
+2025-07-01 10:53:16,419 - INFO - Opened folder: C:\Program Files\Cisco
+2025-07-01 10:53:21,432 - INFO - Deleted folder: C:\Program Files\Cisco
+2025-07-01 10:53:23,647 - INFO - Opened folder: C:\Program Files (x86)\Cisco
+2025-07-01 10:53:28,662 - INFO - Deleted folder: C:\Program Files (x86)\Cisco
+2025-07-01 10:53:30,874 - INFO - Opened folder: C:\ProgramData\Cisco
+2025-07-01 10:53:35,896 - INFO - Deleted folder: C:\ProgramData\Cisco
+2025-07-01 10:53:38,078 - INFO - Folder not found: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 10:53:38,078 - INFO - ========== FOLDER CLEANUP COMPLETE ==========
+2025-07-01 10:53:38,079 - INFO - ========== ALL CLEANUP COMPLETED ==========
+2025-07-01 11:45:24,419 - INFO - Automation script started
+2025-07-01 11:45:24,419 - INFO - Starting Webdriver
+2025-07-01 11:45:24,419 - INFO - ====== WebDriver manager ======
+2025-07-01 11:45:25,673 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 11:45:25,774 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 11:45:25,843 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 11:45:27,074 - INFO - Opening URL: https://xdr.us.security.cisco.com/
+2025-07-01 11:45:32,899 - INFO - Entered Email
+2025-07-01 11:45:37,442 - INFO - Entered Password
+2025-07-01 11:45:37,442 - INFO - Waiting for Duo authentication...
+2025-07-01 11:46:04,599 - INFO - Navigated to Deployments
+2025-07-01 11:46:17,237 - INFO - Trying deployment name: AutoXDeploy_114614
+2025-07-01 11:46:18,266 - INFO - Deployment name 'AutoXDeploy_114614' is unique.
+2025-07-01 11:46:18,779 - INFO - Selected CM Version: Recommended (1.0.3.433)
+2025-07-01 11:47:00,102 - ERROR - Error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x954553+62419]
+	GetHandleVerifier [0x0x954594+62484]
+	(No symbol) [0x0x792133]
+	(No symbol) [0x0x7da8fe]
+	(No symbol) [0x0x7dac9b]
+	(No symbol) [0x0x823052]
+	(No symbol) [0x0x7ff4b4]
+	(No symbol) [0x0x82087a]
+	(No symbol) [0x0x7ff266]
+	(No symbol) [0x0x7ce852]
+	(No symbol) [0x0x7cf6f4]
+	GetHandleVerifier [0x0xbc4833+2619059]
+	GetHandleVerifier [0x0xbbfc4a+2599626]
+	GetHandleVerifier [0x0x97b0fa+221050]
+	GetHandleVerifier [0x0x96b378+156152]
+	GetHandleVerifier [0x0x971d2d+183213]
+	GetHandleVerifier [0x0x95c438+94904]
+	GetHandleVerifier [0x0x95c5c2+95298]
+	GetHandleVerifier [0x0x94771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-01 11:47:02,439 - INFO - Execution completed successfully
+2025-07-01 11:47:04,975 - INFO - ===============================================================
+2025-07-01 11:47:04,975 - INFO - ====================INSTALLATION===============================
+2025-07-01 11:47:04,975 - INFO - ===============================================================
+2025-07-01 11:47:04,980 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_104205.exe
+2025-07-01 11:47:15,147 - INFO - [UI] Clicking Continue button...
+2025-07-01 11:47:18,601 - INFO - [UI] Continue button clicked.
+2025-07-01 11:48:03,605 - INFO - [UI] Closing installer...
+2025-07-01 11:48:05,834 - INFO - [UI] Installer closed
+2025-07-01 11:48:13,344 - INFO - Searched for 'Cisco Secure Client ', check the UI
+2025-07-01 11:48:15,454 - INFO - Opening File Explorer at: C:\Program Files\Cisco
+2025-07-01 11:48:23,954 - INFO - Found: C:\Program Files\Cisco
+2025-07-01 11:48:24,062 - INFO - Opening File Explorer at: C:\Program Files (x86)\Cisco
+2025-07-01 11:48:32,584 - INFO - Found: C:\Program Files (x86)\Cisco
+2025-07-01 11:48:32,693 - INFO - Opening File Explorer at: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 11:48:41,244 - INFO - Found: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 11:48:41,354 - INFO - Opening File Explorer at: C:\ProgramData\Cisco
+2025-07-01 11:48:49,874 - INFO - Found: C:\ProgramData\Cisco
+2025-07-01 11:48:49,983 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-01 11:48:58,594 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-01 11:48:58,704 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-01 11:49:07,261 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-01 11:49:07,370 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-01 11:49:15,937 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-01 11:49:16,047 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-01 11:49:24,632 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-01 11:49:24,740 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-01 11:49:33,268 - WARNING -  Not Found: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-01 11:49:33,379 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-01 11:49:41,953 - WARNING -  Not Found: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-01 11:49:42,066 - INFO - Opening file in Notepad: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cmid.exe.log
+2025-07-01 11:49:45,131 - INFO - Searching for keyword: version in Notepad
+2025-07-01 11:49:48,489 - INFO - Keyword 'version' search completed.
+2025-07-01 11:49:49,610 - INFO - Searching for keyword: BIOS UUID in Notepad
+2025-07-01 11:49:53,022 - INFO - Keyword 'BIOS UUID' search completed.
+2025-07-01 11:49:54,141 - INFO - Searching for keyword: Adapter MAC Address in Notepad
+2025-07-01 11:49:57,516 - INFO - Keyword 'Adapter MAC Address' search completed.
+2025-07-01 11:49:58,640 - INFO - Searching for keyword: ProxyDiscovery::ProxyDiscoverySync in Notepad
+2025-07-01 11:50:02,071 - INFO - Keyword 'ProxyDiscovery::ProxyDiscoverySync' search completed.
+2025-07-01 11:50:03,189 - INFO - Opening JSON file: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\cmidstore.json
+2025-07-01 11:50:09,462 - INFO - [INFO] Launching Event Viewer...
+2025-07-01 11:50:20,837 - INFO - [INFO] Connected to Event Viewer window.
+2025-07-01 11:50:31,270 - INFO - [INFO] Double-clicked Network Visibility Module.
+2025-07-01 11:50:37,405 - INFO - [INFO] Viewed log 1
+2025-07-01 11:50:41,473 - INFO - [INFO] Viewed log 2
+2025-07-01 11:50:45,551 - INFO - [INFO] Viewed log 3
+2025-07-01 11:50:49,628 - INFO - [INFO] Viewed log 4
+2025-07-01 11:50:53,697 - INFO - [INFO] Viewed log 5
+2025-07-01 11:50:57,771 - INFO - [INFO] Viewed log 6
+2025-07-01 11:51:01,843 - INFO - [INFO] Viewed log 7
+2025-07-01 11:51:05,917 - INFO - [INFO] Viewed log 8
+2025-07-01 11:51:09,988 - INFO - [INFO] Viewed log 9
+2025-07-01 11:51:14,060 - INFO - [INFO] Viewed log 10
+2025-07-01 11:51:18,181 - INFO - Installation check completed
+2025-07-01 11:51:18,181 - INFO - ====================INSTALLATION COMPLETED===============================
+2025-07-01 11:51:18,182 - INFO - Launching Cisco Secure Client...
+2025-07-01 11:51:27,064 - INFO - Main window loaded.
+2025-07-01 11:51:28,289 - INFO - Clicked Connect.
+2025-07-01 11:51:41,308 - ERROR - Error: name 'exit' is not defined
+2025-07-01 11:51:53,356 - INFO - ================Move deployment=================
+2025-07-01 11:51:53,357 - INFO - Starting Webdriver
+2025-07-01 11:51:53,357 - INFO - ====== WebDriver manager ======
+2025-07-01 11:51:54,465 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 11:51:54,570 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 11:51:54,639 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 11:51:55,846 - INFO - Opening URL: https://xdr.us.security.cisco.com/
+2025-07-01 11:52:04,164 - INFO - Entering the text :kspriya+us@cisco.com
+2025-07-01 11:52:04,593 - INFO - Entered Email
+2025-07-01 11:52:04,595 - INFO - Entering the text :Password!9
+2025-07-01 11:52:09,115 - INFO - Entered Password
+2025-07-01 11:52:09,115 - INFO - Waiting for Duo authentication...
+2025-07-01 11:52:40,187 - INFO - Navigated to Device Events
+2025-07-01 11:52:49,411 - INFO - Successfully clicked on UID link.
+2025-07-01 11:53:27,357 - INFO - Navigated to clients
+2025-07-01 11:54:18,613 - INFO - Browser closed.
+2025-07-01 11:54:18,613 - INFO - Execution completed successfully
+2025-07-01 11:54:20,607 - INFO - ========== STARTING UNINSTALL ==========
+2025-07-01 11:54:20,608 - INFO - Looking for: Cisco Secure Client - AnyConnect VPN
+2025-07-01 11:54:31,488 - INFO - Launched uninstaller for: Cisco Secure Client - AnyConnect VPN 
+2025-07-01 11:55:49,430 - INFO - ========== STARTING UNINSTALL ==========
+2025-07-01 11:55:49,431 - INFO - Looking for: Cisco Secure Client - AnyConnect VPN
+2025-07-01 11:55:58,889 - INFO - Launched uninstaller for: Cisco Secure Client - AnyConnect VPN 
+2025-07-01 11:56:07,817 - INFO - Handling multiple OK popups...
+2025-07-01 11:56:34,590 - INFO - Waiting 70 seconds for uninstallation to complete...
+2025-07-01 11:57:44,606 - INFO - Looking for: Cisco Secure Client - Cloud Management
+2025-07-01 11:57:55,814 - INFO - Launched uninstaller for: Cisco Secure Client - Cloud Management
+2025-07-01 11:58:05,312 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-01 11:58:40,323 - INFO - Looking for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-01 11:58:52,464 - INFO - Launched uninstaller for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-01 11:59:01,645 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-01 11:59:36,648 - INFO - ========== UNINSTALL COMPLETED ==========
+2025-07-01 11:59:36,650 - INFO - ========== STARTING FOLDER CLEANUP ==========
+2025-07-01 11:59:36,671 - INFO - Opened folder: C:\Program Files\Cisco
+2025-07-01 11:59:41,673 - WARNING - Could not delete C:\Program Files\Cisco: [WinError 5] Access is denied: 'C:\\Program Files\\Cisco\\Cisco Secure Client'
+2025-07-01 11:59:41,690 - INFO - Opened folder: C:\Program Files (x86)\Cisco
+2025-07-01 11:59:46,703 - WARNING - Could not delete C:\Program Files (x86)\Cisco: [WinError 5] Access is denied: 'C:\\Program Files (x86)\\Cisco\\Cisco AnyConnect Secure Mobility Client'
+2025-07-01 11:59:46,728 - INFO - Opened folder: C:\ProgramData\Cisco
+2025-07-01 11:59:51,741 - WARNING - Could not delete C:\ProgramData\Cisco: [WinError 5] Access is denied: 'C:\\ProgramData\\Cisco\\Cisco AnyConnect Secure Mobility Client'
+2025-07-01 11:59:51,759 - INFO - Opened folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 11:59:56,775 - INFO - Deleted folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 11:59:58,971 - INFO - ========== FOLDER CLEANUP COMPLETE ==========
+2025-07-01 11:59:58,972 - INFO - ========== ALL CLEANUP COMPLETED ==========
+2025-07-01 12:23:52,174 - INFO - Automation script started
+2025-07-01 12:23:52,174 - INFO - Starting Webdriver
+2025-07-01 12:23:52,175 - INFO - ====== WebDriver manager ======
+2025-07-01 12:23:53,188 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 12:23:53,280 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 12:23:53,437 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 12:23:54,560 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 12:24:01,120 - INFO - Entered Email
+2025-07-01 12:24:05,471 - INFO - Entered Password
+2025-07-01 12:24:05,471 - INFO - Waiting for Duo authentication...
+2025-07-01 12:24:31,308 - INFO - Navigated to Deployments
+2025-07-01 12:24:48,576 - INFO - Trying deployment name: AutoXDeploy_122441
+2025-07-01 12:24:49,613 - INFO - Deployment name 'AutoXDeploy_122441' is unique.
+2025-07-01 12:24:49,976 - INFO - Selected CM Version: Recommended (1.0.3.435)
+2025-07-01 12:24:50,795 - INFO - Selected VPN Version: Recommended (5.1.9.113)
+2025-07-01 12:24:51,029 - INFO - Checked Umbrella module
+2025-07-01 12:24:51,079 - INFO - Checked Diagnostics and Reporting Tool module
+2025-07-01 12:24:51,125 - INFO - Checked ISE Posture module
+2025-07-01 12:24:51,366 - INFO - Checked Secure firewall Posture module
+2025-07-01 12:24:51,386 - INFO - Checked NVM XDR module
+2025-07-01 12:24:55,543 - INFO - Deployment created successfully.
+2025-07-01 12:25:11,415 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3dcca27361484843b90dafb2482d7d8d
+2025-07-01 13:36:16,398 - INFO - Automation script started
+2025-07-01 13:36:16,398 - INFO - Starting Webdriver
+2025-07-01 13:36:16,398 - INFO - ====== WebDriver manager ======
+2025-07-01 13:36:17,692 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:36:17,892 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:36:18,220 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 13:36:19,451 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 13:36:26,694 - INFO - Entered Email
+2025-07-01 13:36:31,712 - INFO - Entered Password
+2025-07-01 13:36:31,712 - INFO - Waiting for Duo authentication...
+2025-07-01 13:37:02,500 - INFO - Navigated to Deployments
+2025-07-01 13:37:20,998 - INFO - Trying deployment name: AutoXDeploy_133712
+2025-07-01 13:37:22,030 - INFO - Deployment name 'AutoXDeploy_133712' is unique.
+2025-07-01 13:37:22,418 - INFO - Selected CM Version: Recommended (1.0.3.435)
+2025-07-01 13:37:23,545 - INFO - Selected VPN Version: Recommended (5.1.9.113)
+2025-07-01 13:37:23,913 - INFO - Checked Diagnostics and Reporting Tool module
+2025-07-01 13:37:23,966 - INFO - Checked NVM XDR module
+2025-07-01 13:37:27,733 - INFO - Deployment created successfully.
+2025-07-01 13:37:44,466 - INFO - Full Installer downloaded...
+2025-07-01 13:37:44,467 - INFO - Deployment completed successfully.
+2025-07-01 13:38:40,336 - INFO - Execution completed successfully
+2025-07-01 13:38:42,821 - INFO - ===============================================================
+2025-07-01 13:38:42,821 - INFO - ====================INSTALLATION===============================
+2025-07-01 13:38:42,823 - INFO - ===============================================================
+2025-07-01 13:38:42,824 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_133712.exe
+2025-07-01 13:38:52,988 - INFO - [UI] Clicking Continue button...
+2025-07-01 13:38:56,460 - INFO - [UI] Continue button clicked.
+2025-07-01 13:39:41,466 - INFO - [UI] Closing installer...
+2025-07-01 13:39:43,700 - INFO - [UI] Installer closed
+2025-07-01 13:39:51,216 - INFO - Searched for 'Cisco Secure Client ', check the UI
+2025-07-01 13:39:53,333 - INFO - Opening File Explorer at: C:\Program Files\Cisco
+2025-07-01 13:40:01,837 - INFO - Found: C:\Program Files\Cisco
+2025-07-01 13:40:01,946 - INFO - Opening File Explorer at: C:\Program Files (x86)\Cisco
+2025-07-01 13:40:10,528 - INFO - Found: C:\Program Files (x86)\Cisco
+2025-07-01 13:40:10,637 - INFO - Opening File Explorer at: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 13:40:19,163 - INFO - Found: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 13:40:19,272 - INFO - Opening File Explorer at: C:\ProgramData\Cisco
+2025-07-01 13:40:27,831 - INFO - Found: C:\ProgramData\Cisco
+2025-07-01 13:40:27,939 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-01 13:40:36,518 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-01 13:40:36,624 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-01 13:40:45,220 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-01 13:40:45,330 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-01 13:40:53,918 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-01 13:40:54,026 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-01 13:41:02,624 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-01 13:41:02,732 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-01 13:41:11,301 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-01 13:41:11,409 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-01 13:41:19,983 - WARNING -  Not Found: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-01 13:41:20,093 - INFO - Opening file in Notepad: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cmid.exe.log
+2025-07-01 13:41:23,173 - INFO - Searching for keyword: version in Notepad
+2025-07-01 13:41:26,521 - INFO - Keyword 'version' search completed.
+2025-07-01 13:41:27,637 - INFO - Searching for keyword: BIOS UUID in Notepad
+2025-07-01 13:41:30,996 - INFO - Keyword 'BIOS UUID' search completed.
+2025-07-01 13:41:32,107 - INFO - Searching for keyword: Adapter MAC Address in Notepad
+2025-07-01 13:41:35,465 - INFO - Keyword 'Adapter MAC Address' search completed.
+2025-07-01 13:41:36,580 - INFO - Searching for keyword: ProxyDiscovery::ProxyDiscoverySync in Notepad
+2025-07-01 13:41:39,993 - INFO - Keyword 'ProxyDiscovery::ProxyDiscoverySync' search completed.
+2025-07-01 13:41:41,114 - INFO - Opening JSON file: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\cmidstore.json
+2025-07-01 13:41:47,391 - INFO - [INFO] Launching Event Viewer...
+2025-07-01 13:41:58,788 - INFO - [INFO] Connected to Event Viewer window.
+2025-07-01 13:42:10,084 - INFO - [INFO] Double-clicked Network Visibility Module.
+2025-07-01 13:42:16,211 - INFO - [INFO] Viewed log 1
+2025-07-01 13:42:20,279 - INFO - [INFO] Viewed log 2
+2025-07-01 13:42:24,351 - INFO - [INFO] Viewed log 3
+2025-07-01 13:42:28,424 - INFO - [INFO] Viewed log 4
+2025-07-01 13:42:32,503 - INFO - [INFO] Viewed log 5
+2025-07-01 13:42:36,570 - INFO - [INFO] Viewed log 6
+2025-07-01 13:42:40,638 - INFO - [INFO] Viewed log 7
+2025-07-01 13:42:44,709 - INFO - [INFO] Viewed log 8
+2025-07-01 13:42:48,779 - INFO - [INFO] Viewed log 9
+2025-07-01 13:42:52,853 - INFO - [INFO] Viewed log 10
+2025-07-01 13:42:56,979 - INFO - Installation check completed
+2025-07-01 13:42:56,979 - INFO - ====================INSTALLATION COMPLETED===============================
+2025-07-01 13:42:56,980 - INFO - Launching Cisco Secure Client...
+2025-07-01 13:43:06,127 - INFO - Main window loaded.
+2025-07-01 13:43:07,736 - INFO - Clicked Connect.
+2025-07-01 13:43:20,756 - ERROR - Error: name 'exit' is not defined
+2025-07-01 13:43:41,647 - INFO - ================Move deployment=================
+2025-07-01 13:43:41,648 - INFO - Starting Webdriver
+2025-07-01 13:43:41,649 - INFO - ====== WebDriver manager ======
+2025-07-01 13:43:42,803 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:43:42,883 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:43:42,940 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 13:43:44,199 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 13:43:50,862 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-01 13:43:51,253 - INFO - Entered Email
+2025-07-01 13:43:51,254 - INFO - Entering the text :Password!9
+2025-07-01 13:43:55,716 - INFO - Entered Password
+2025-07-01 13:43:55,717 - INFO - Waiting for Duo authentication...
+2025-07-01 13:44:28,753 - INFO - Navigated to Device Events
+2025-07-01 13:44:42,423 - INFO - Successfully clicked on UID link.
+2025-07-01 13:45:21,380 - INFO - Navigated to clients
+2025-07-01 13:46:27,868 - INFO - Browser closed.
+2025-07-01 13:46:27,868 - INFO - Execution completed successfully
+2025-07-01 13:46:29,776 - INFO - ========== STARTING UNINSTALL ==========
+2025-07-01 13:46:29,777 - INFO - Looking for: Cisco Secure Client - AnyConnect VPN
+2025-07-01 13:46:41,070 - INFO - Launched uninstaller for: Cisco Secure Client - AnyConnect VPN 
+2025-07-01 13:46:47,175 - INFO - Clicked: Yes
+2025-07-01 13:46:50,512 - INFO - Handling multiple OK popups...
+2025-07-01 13:46:51,487 - INFO - Clicked: ok in 'Cisco Secure Client - Network Visibility Module'
+2025-07-01 13:47:29,070 - INFO - Waiting 70 seconds for uninstallation to complete...
+2025-07-01 13:48:39,082 - INFO - Looking for: Cisco Secure Client - Cloud Management
+2025-07-01 13:48:49,528 - INFO - Launched uninstaller for: Cisco Secure Client - Cloud Management
+2025-07-01 13:48:55,652 - INFO - Clicked: Yes
+2025-07-01 13:48:58,715 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-01 13:49:33,724 - INFO - Looking for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-01 13:49:43,944 - INFO - Launched uninstaller for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-01 13:49:49,997 - INFO - Clicked: Yes
+2025-07-01 13:49:53,087 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-01 13:50:28,103 - INFO - ========== UNINSTALL COMPLETED ==========
+2025-07-01 13:50:28,104 - INFO - ========== STARTING FOLDER CLEANUP ==========
+2025-07-01 13:50:28,125 - INFO - Opened folder: C:\Program Files\Cisco
+2025-07-01 13:50:33,141 - INFO - Deleted folder: C:\Program Files\Cisco
+2025-07-01 13:50:35,354 - INFO - Opened folder: C:\Program Files (x86)\Cisco
+2025-07-01 13:50:40,364 - INFO - Deleted folder: C:\Program Files (x86)\Cisco
+2025-07-01 13:50:42,586 - INFO - Opened folder: C:\ProgramData\Cisco
+2025-07-01 13:50:47,607 - INFO - Deleted folder: C:\ProgramData\Cisco
+2025-07-01 13:50:49,812 - INFO - Opened folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 13:50:54,821 - INFO - Deleted folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 13:50:57,018 - INFO - ========== FOLDER CLEANUP COMPLETE ==========
+2025-07-01 13:50:57,019 - INFO - ========== ALL CLEANUP COMPLETED ==========
+2025-07-01 13:56:50,938 - INFO - Automation script started
+2025-07-01 13:56:50,939 - INFO - Starting Webdriver
+2025-07-01 13:56:50,939 - INFO - ====== WebDriver manager ======
+2025-07-01 13:56:52,083 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:56:52,188 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:56:52,260 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 13:56:53,554 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 13:57:00,613 - INFO - Entered Email
+2025-07-01 13:57:05,591 - INFO - Entered Password
+2025-07-01 13:57:05,591 - INFO - Waiting for Duo authentication...
+2025-07-01 13:57:38,688 - INFO - Navigated to Deployments
+2025-07-01 13:57:57,613 - INFO - Trying deployment name: AutoXDeploy_135750
+2025-07-01 13:57:58,633 - INFO - Deployment name 'AutoXDeploy_135750' is unique.
+2025-07-01 13:57:58,939 - INFO - Selected CM Version: Recommended (1.0.3.435)
+2025-07-01 13:57:59,874 - INFO - Selected VPN Version: Recommended (5.1.9.113)
+2025-07-01 13:58:00,189 - INFO - Checked Secure firewall Posture module
+2025-07-01 13:58:03,555 - INFO - Deployment created successfully.
+2025-07-01 13:58:18,676 - INFO - Full Installer downloaded...
+2025-07-01 13:58:18,677 - INFO - Deployment completed successfully.
+2025-07-01 13:59:14,513 - INFO - Execution completed successfully
+2025-07-01 13:59:16,975 - INFO - ===============================================================
+2025-07-01 13:59:16,975 - INFO - ====================INSTALLATION===============================
+2025-07-01 13:59:16,976 - INFO - ===============================================================
+2025-07-01 13:59:16,978 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_133712.exe
+2025-07-01 13:59:27,085 - INFO - [UI] Clicking Continue button...
+2025-07-01 13:59:30,211 - INFO - ================Move deployment=================
+2025-07-01 13:59:30,212 - INFO - Starting Webdriver
+2025-07-01 13:59:30,212 - INFO - ====== WebDriver manager ======
+2025-07-01 13:59:31,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:59:31,567 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 13:59:31,639 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 14:02:16,824 - INFO - Automation script started
+2025-07-01 14:02:16,825 - INFO - Starting Webdriver
+2025-07-01 14:02:16,825 - INFO - ====== WebDriver manager ======
+2025-07-01 14:02:17,997 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 14:02:18,093 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 14:02:18,387 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 14:02:19,609 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 14:02:28,387 - INFO - Entered Email
+2025-07-01 14:02:33,419 - INFO - Entered Password
+2025-07-01 14:02:33,419 - INFO - Waiting for Duo authentication...
+2025-07-01 14:03:08,400 - INFO - Navigated to Deployments
+2025-07-01 14:03:18,940 - ERROR - Error occurred: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x954553+62419]
+	GetHandleVerifier [0x0x954594+62484]
+	(No symbol) [0x0x792133]
+	(No symbol) [0x0x781b40]
+	(No symbol) [0x0x79f912]
+	(No symbol) [0x0x805d6c]
+	(No symbol) [0x0x820159]
+	(No symbol) [0x0x7ff266]
+	(No symbol) [0x0x7ce852]
+	(No symbol) [0x0x7cf6f4]
+	GetHandleVerifier [0x0xbc4833+2619059]
+	GetHandleVerifier [0x0xbbfc4a+2599626]
+	GetHandleVerifier [0x0x97b0fa+221050]
+	GetHandleVerifier [0x0x96b378+156152]
+	GetHandleVerifier [0x0x971d2d+183213]
+	GetHandleVerifier [0x0x95c438+94904]
+	GetHandleVerifier [0x0x95c5c2+95298]
+	GetHandleVerifier [0x0x94771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-01 14:03:21,184 - INFO - Execution completed successfully
+2025-07-01 14:03:23,663 - INFO - ===============================================================
+2025-07-01 14:03:23,664 - INFO - ====================INSTALLATION===============================
+2025-07-01 14:03:23,665 - INFO - ===============================================================
+2025-07-01 14:03:23,667 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_133712.exe
+2025-07-01 14:03:33,820 - INFO - [UI] Clicking Continue button...
+2025-07-01 14:03:37,287 - INFO - [UI] Continue button clicked.
+2025-07-01 14:04:22,300 - INFO - [UI] Closing installer...
+2025-07-01 14:04:24,541 - INFO - [UI] Installer closed
+2025-07-01 14:04:32,070 - INFO - Searched for 'Cisco Secure Client ', check the UI
+2025-07-01 14:04:34,187 - INFO - Opening File Explorer at: C:\Program Files\Cisco
+2025-07-01 14:04:42,702 - INFO - Found: C:\Program Files\Cisco
+2025-07-01 14:04:42,812 - INFO - Opening File Explorer at: C:\Program Files (x86)\Cisco
+2025-07-01 14:04:51,358 - INFO - Found: C:\Program Files (x86)\Cisco
+2025-07-01 14:04:51,466 - INFO - Opening File Explorer at: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 14:04:59,978 - INFO - Found: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 14:05:00,089 - INFO - Opening File Explorer at: C:\ProgramData\Cisco
+2025-07-01 14:05:08,641 - INFO - Found: C:\ProgramData\Cisco
+2025-07-01 14:05:08,751 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-01 14:05:17,348 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-01 14:05:17,458 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-01 14:05:26,084 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-01 14:05:26,192 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-01 14:05:34,788 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-01 14:05:34,897 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-01 14:05:43,514 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-01 14:05:43,623 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-01 14:05:52,202 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-01 14:05:52,311 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-01 14:06:00,915 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-01 14:06:01,025 - INFO - Opening file in Notepad: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cmid.exe.log
+2025-07-01 14:06:04,078 - INFO - Searching for keyword: version in Notepad
+2025-07-01 14:06:07,429 - INFO - Keyword 'version' search completed.
+2025-07-01 14:06:08,552 - INFO - Searching for keyword: BIOS UUID in Notepad
+2025-07-01 14:06:11,954 - INFO - Keyword 'BIOS UUID' search completed.
+2025-07-01 14:06:13,068 - INFO - Searching for keyword: Adapter MAC Address in Notepad
+2025-07-01 14:06:16,466 - INFO - Keyword 'Adapter MAC Address' search completed.
+2025-07-01 14:06:17,578 - INFO - Searching for keyword: ProxyDiscovery::ProxyDiscoverySync in Notepad
+2025-07-01 14:06:21,026 - INFO - Keyword 'ProxyDiscovery::ProxyDiscoverySync' search completed.
+2025-07-01 14:06:22,138 - INFO - Opening JSON file: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\cmidstore.json
+2025-07-01 14:06:28,425 - INFO - [INFO] Launching Event Viewer...
+2025-07-01 14:06:40,340 - INFO - [INFO] Connected to Event Viewer window.
+2025-07-01 14:06:50,953 - INFO - [INFO] Double-clicked Network Visibility Module.
+2025-07-01 14:06:57,110 - INFO - [INFO] Viewed log 1
+2025-07-01 14:07:01,175 - INFO - [INFO] Viewed log 2
+2025-07-01 14:07:05,241 - INFO - [INFO] Viewed log 3
+2025-07-01 14:07:09,316 - INFO - [INFO] Viewed log 4
+2025-07-01 14:07:13,390 - INFO - [INFO] Viewed log 5
+2025-07-01 14:07:17,456 - INFO - [INFO] Viewed log 6
+2025-07-01 14:07:21,527 - INFO - [INFO] Viewed log 7
+2025-07-01 14:07:25,600 - INFO - [INFO] Viewed log 8
+2025-07-01 14:07:29,670 - INFO - [INFO] Viewed log 9
+2025-07-01 14:07:33,743 - INFO - [INFO] Viewed log 10
+2025-07-01 14:07:37,858 - INFO - Installation check completed
+2025-07-01 14:07:37,860 - INFO - ====================INSTALLATION COMPLETED===============================
+2025-07-01 14:07:37,860 - INFO - Launching Cisco Secure Client...
+2025-07-01 14:07:45,297 - INFO - Main window loaded.
+2025-07-01 14:07:46,965 - INFO - Clicked Connect.
+2025-07-01 14:07:59,981 - ERROR - Error: name 'exit' is not defined
+2025-07-01 14:08:09,235 - INFO - ================Move deployment=================
+2025-07-01 14:08:09,235 - INFO - Starting Webdriver
+2025-07-01 14:08:09,236 - INFO - ====== WebDriver manager ======
+2025-07-01 14:08:10,334 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 14:08:10,419 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 14:08:10,493 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 14:08:11,639 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 14:08:18,211 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-01 14:08:18,596 - INFO - Entered Email
+2025-07-01 14:08:18,597 - INFO - Entering the text :Password!9
+2025-07-01 14:08:23,738 - INFO - Entered Password
+2025-07-01 14:08:23,738 - INFO - Waiting for Duo authentication...
+2025-07-01 14:09:10,447 - INFO - Navigated to Device Events
+2025-07-01 14:09:25,962 - INFO - Successfully clicked on UID link.
+2025-07-01 14:10:07,598 - INFO - Navigated to clients
+2025-07-01 14:11:17,721 - INFO - Browser closed.
+2025-07-01 14:11:17,724 - INFO - Execution completed successfully
+2025-07-01 14:11:19,609 - INFO - ========== STARTING UNINSTALL ==========
+2025-07-01 14:11:19,610 - INFO - Looking for: Cisco Secure Client - AnyConnect VPN
+2025-07-01 14:11:29,684 - INFO - Launched uninstaller for: Cisco Secure Client - AnyConnect VPN 
+2025-07-01 14:11:35,793 - INFO - Clicked: Yes
+2025-07-01 14:11:39,114 - INFO - Handling multiple OK popups...
+2025-07-01 14:11:39,987 - INFO - Clicked: ok in 'Cisco Secure Client - XDR Network Visibility Module'
+2025-07-01 14:11:46,708 - INFO - Clicked: ok in 'Cisco Secure Client - Umbrella'
+2025-07-01 14:12:19,219 - INFO - Waiting 70 seconds for uninstallation to complete...
+2025-07-01 14:13:29,227 - INFO - Looking for: Cisco Secure Client - Cloud Management
+2025-07-01 14:13:39,133 - INFO - Launched uninstaller for: Cisco Secure Client - Cloud Management
+2025-07-01 14:13:45,183 - INFO - Clicked: Yes
+2025-07-01 14:13:48,235 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-01 14:14:23,240 - INFO - Looking for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-01 14:14:35,846 - INFO - Launched uninstaller for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-01 14:14:44,917 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-01 14:15:19,922 - INFO - ========== UNINSTALL COMPLETED ==========
+2025-07-01 14:15:19,923 - INFO - ========== STARTING FOLDER CLEANUP ==========
+2025-07-01 14:15:19,944 - INFO - Opened folder: C:\Program Files\Cisco
+2025-07-01 14:15:24,949 - WARNING - Could not delete C:\Program Files\Cisco: [WinError 5] Access is denied: 'C:\\Program Files\\Cisco\\Cisco Secure Client\\CM\\1.0.4.447\\CMID\\1.2.18.0\\csc_cmid.exe'
+2025-07-01 14:15:24,968 - INFO - Opened folder: C:\Program Files (x86)\Cisco
+2025-07-01 14:15:29,972 - WARNING - Could not delete C:\Program Files (x86)\Cisco: [WinError 5] Access is denied: 'C:\\Program Files (x86)\\Cisco\\Cisco Secure Client\\DART\\boost_system.dll'
+2025-07-01 14:15:29,993 - INFO - Opened folder: C:\ProgramData\Cisco
+2025-07-01 14:15:35,004 - INFO - Deleted folder: C:\ProgramData\Cisco
+2025-07-01 14:15:37,214 - INFO - Opened folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 14:15:42,224 - INFO - Deleted folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-01 14:15:44,412 - INFO - ========== FOLDER CLEANUP COMPLETE ==========
+2025-07-01 14:15:44,413 - INFO - ========== ALL CLEANUP COMPLETED ==========
+2025-07-01 14:24:05,998 - INFO - Automation script started
+2025-07-01 14:24:05,999 - INFO - Starting Webdriver
+2025-07-01 14:24:05,999 - INFO - ====== WebDriver manager ======
+2025-07-01 14:24:07,233 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 14:24:07,325 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 14:24:07,401 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 14:24:08,609 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 14:24:16,650 - INFO - Entered Email
+2025-07-01 14:24:21,154 - INFO - Entered Password
+2025-07-01 14:24:21,156 - INFO - Waiting for Duo authentication...
+2025-07-01 14:24:58,227 - INFO - Navigated to Deployments
+2025-07-01 14:25:15,770 - INFO - Trying deployment name: AutoXDeploy_142508
+2025-07-01 14:25:16,803 - INFO - Deployment name 'AutoXDeploy_142508' is unique.
+2025-07-01 14:25:17,225 - INFO - Selected CM Version: Latest (1.0.4.447)
+2025-07-01 14:25:18,504 - INFO - Selected VPN Version: Latest (5.1.10.233)
+2025-07-01 14:25:18,916 - INFO - Checked Diagnostics and Reporting Tool module
+2025-07-01 14:25:22,393 - INFO - Deployment created successfully.
+2025-07-01 14:25:38,564 - INFO - Full Installer downloaded...
+2025-07-01 14:25:38,565 - INFO - Deployment completed successfully.
+2025-07-01 14:26:34,508 - INFO - Execution completed successfully
+2025-07-01 14:26:36,971 - INFO - ===============================================================
+2025-07-01 14:26:36,971 - INFO - ====================INSTALLATION===============================
+2025-07-01 14:26:36,971 - INFO - ===============================================================
+2025-07-01 14:26:36,974 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_133712.exe
+2025-07-01 15:47:08,018 - INFO - Automation script started
+2025-07-01 15:47:08,018 - INFO - Starting Webdriver
+2025-07-01 15:47:08,018 - INFO - ====== WebDriver manager ======
+2025-07-01 15:47:09,237 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 15:47:09,339 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 15:47:09,411 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 15:47:10,757 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 15:47:17,206 - ERROR - Error while Entering the textkspriya+qa@cisco.com:Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x954553+62419]
+	GetHandleVerifier [0x0x954594+62484]
+	(No symbol) [0x0x792133]
+	(No symbol) [0x0x781b40]
+	(No symbol) [0x0x79f912]
+	(No symbol) [0x0x805d6c]
+	(No symbol) [0x0x820159]
+	(No symbol) [0x0x7ff266]
+	(No symbol) [0x0x7ce852]
+	(No symbol) [0x0x7cf6f4]
+	GetHandleVerifier [0x0xbc4833+2619059]
+	GetHandleVerifier [0x0xbbfc4a+2599626]
+	GetHandleVerifier [0x0x97b0fa+221050]
+	GetHandleVerifier [0x0x96b378+156152]
+	GetHandleVerifier [0x0x971d2d+183213]
+	GetHandleVerifier [0x0x95c438+94904]
+	GetHandleVerifier [0x0x95c5c2+95298]
+	GetHandleVerifier [0x0x94771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-01 15:47:17,265 - ERROR - Error clicking element idp-discovery-submit:Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x954553+62419]
+	GetHandleVerifier [0x0x954594+62484]
+	(No symbol) [0x0x791f90]
+	(No symbol) [0x0x7cdb48]
+	(No symbol) [0x0x7ff326]
+	(No symbol) [0x0x7faf15]
+	(No symbol) [0x0x7fa496]
+	(No symbol) [0x0x763a45]
+	(No symbol) [0x0x763f9e]
+	(No symbol) [0x0x76442d]
+	GetHandleVerifier [0x0xbc4833+2619059]
+	GetHandleVerifier [0x0xbbfc4a+2599626]
+	GetHandleVerifier [0x0x97b0fa+221050]
+	GetHandleVerifier [0x0x96b378+156152]
+	GetHandleVerifier [0x0x971d2d+183213]
+	(No symbol) [0x0x763710]
+	(No symbol) [0x0x762f1d]
+	GetHandleVerifier [0x0xcf8b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-01 15:47:17,266 - INFO - Entered Email
+2025-07-01 15:47:17,269 - ERROR - Error while Entering the textPassword!(:Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x954553+62419]
+	GetHandleVerifier [0x0x954594+62484]
+	(No symbol) [0x0x791f90]
+	(No symbol) [0x0x7cdb48]
+	(No symbol) [0x0x7ff326]
+	(No symbol) [0x0x7faf15]
+	(No symbol) [0x0x7fa496]
+	(No symbol) [0x0x763a45]
+	(No symbol) [0x0x763f9e]
+	(No symbol) [0x0x76442d]
+	GetHandleVerifier [0x0xbc4833+2619059]
+	GetHandleVerifier [0x0xbbfc4a+2599626]
+	GetHandleVerifier [0x0x97b0fa+221050]
+	GetHandleVerifier [0x0x96b378+156152]
+	GetHandleVerifier [0x0x971d2d+183213]
+	(No symbol) [0x0x763710]
+	(No symbol) [0x0x762f1d]
+	GetHandleVerifier [0x0xcf8b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-01 15:47:17,272 - ERROR - Error clicking element okta-signin-submit:Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x954553+62419]
+	GetHandleVerifier [0x0x954594+62484]
+	(No symbol) [0x0x791f90]
+	(No symbol) [0x0x7cdb48]
+	(No symbol) [0x0x7ff326]
+	(No symbol) [0x0x7faf15]
+	(No symbol) [0x0x7fa496]
+	(No symbol) [0x0x763a45]
+	(No symbol) [0x0x763f9e]
+	(No symbol) [0x0x76442d]
+	GetHandleVerifier [0x0xbc4833+2619059]
+	GetHandleVerifier [0x0xbbfc4a+2599626]
+	GetHandleVerifier [0x0x97b0fa+221050]
+	GetHandleVerifier [0x0x96b378+156152]
+	GetHandleVerifier [0x0x971d2d+183213]
+	(No symbol) [0x0x763710]
+	(No symbol) [0x0x762f1d]
+	GetHandleVerifier [0x0xcf8b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-01 15:47:17,273 - INFO - Entered Password
+2025-07-01 15:47:17,273 - INFO - Waiting for Duo authentication...
+2025-07-01 15:47:17,274 - ERROR - Error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x954553+62419]
+	GetHandleVerifier [0x0x954594+62484]
+	(No symbol) [0x0x791f90]
+	(No symbol) [0x0x7cdb48]
+	(No symbol) [0x0x7ff326]
+	(No symbol) [0x0x7faf15]
+	(No symbol) [0x0x7fa496]
+	(No symbol) [0x0x763a45]
+	(No symbol) [0x0x763f9e]
+	(No symbol) [0x0x76442d]
+	GetHandleVerifier [0x0xbc4833+2619059]
+	GetHandleVerifier [0x0xbbfc4a+2599626]
+	GetHandleVerifier [0x0x97b0fa+221050]
+	GetHandleVerifier [0x0x96b378+156152]
+	GetHandleVerifier [0x0x971d2d+183213]
+	(No symbol) [0x0x763710]
+	(No symbol) [0x0x762f1d]
+	GetHandleVerifier [0x0xcf8b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-01 15:47:19,288 - INFO - Execution completed successfully
+2025-07-01 15:48:21,697 - INFO - Automation script started for Network installer
+2025-07-01 15:48:21,697 - INFO - Starting Webdriver
+2025-07-01 15:48:21,698 - INFO - ====== WebDriver manager ======
+2025-07-01 15:48:22,912 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 15:48:23,013 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-01 15:48:23,129 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-01 15:48:24,324 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-01 15:48:30,946 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-01 15:48:31,290 - INFO - Entered Email
+2025-07-01 15:48:31,290 - INFO - Entering the text :Password!9
+2025-07-01 15:48:35,694 - INFO - Entered Password
+2025-07-01 15:48:35,695 - INFO - Waiting for Duo authentication...
+2025-07-01 15:49:05,207 - INFO - Navigated to Deployments
+2025-07-01 15:49:22,164 - INFO - Trying deployment name: AutoXDeploy_154915
+2025-07-01 15:49:23,208 - INFO - Deployment name 'AutoXDeploy_154915' is unique.
+2025-07-01 15:49:23,639 - INFO - Selected CM Version: Recommended (1.0.3.435)
+2025-07-01 15:49:24,746 - INFO - Selected VPN Version: Recommended (5.1.9.113)
+2025-07-01 15:49:25,078 - INFO - Checked Umbrella module
+2025-07-01 15:49:25,127 - INFO - Checked ISE Posture module
+2025-07-01 15:49:27,931 - INFO - Deployment created successfully.
+2025-07-01 15:49:43,060 - INFO - Network Installer downloaded...
+2025-07-01 15:49:43,061 - INFO - Deployment completed successfully.
+2025-07-01 15:50:02,468 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/e349b230bcff4036e1a2229f0d07b904
+2025-07-02 09:23:33,661 - INFO - Automation script started
+2025-07-02 09:23:33,661 - INFO - Starting Webdriver
+2025-07-02 09:23:33,661 - INFO - ====== WebDriver manager ======
+2025-07-02 09:23:35,005 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 09:23:35,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 09:23:35,174 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 09:23:35,362 - INFO - WebDriver version 138.0.7204.92 selected
+2025-07-02 09:23:35,366 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-02 09:23:35,367 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-02 09:23:35,672 - INFO - Driver downloading response is 200
+2025-07-02 09:23:36,902 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 09:23:37,406 - INFO - Driver has been saved in cache [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92]
+2025-07-02 09:23:39,139 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 09:23:43,095 - ERROR - Error clicking element idp-discovery-submit:Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x2b4553+62419]
+	GetHandleVerifier [0x0x2b4594+62484]
+	(No symbol) [0x0xf2133]
+	(No symbol) [0x0xf8909]
+	(No symbol) [0x0xfac7a]
+	(No symbol) [0x0xfacf7]
+	(No symbol) [0x0x135b38]
+	(No symbol) [0x0x15f46c]
+	(No symbol) [0x0x130054]
+	(No symbol) [0x0x15f6e4]
+	(No symbol) [0x0x18087a]
+	(No symbol) [0x0x15f266]
+	(No symbol) [0x0x12e852]
+	(No symbol) [0x0x12f6f4]
+	GetHandleVerifier [0x0x524833+2619059]
+	GetHandleVerifier [0x0x51fc4a+2599626]
+	GetHandleVerifier [0x0x2db0fa+221050]
+	GetHandleVerifier [0x0x2cb378+156152]
+	GetHandleVerifier [0x0x2d1d2d+183213]
+	GetHandleVerifier [0x0x2bc438+94904]
+	GetHandleVerifier [0x0x2bc5c2+95298]
+	GetHandleVerifier [0x0x2a771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+	(No symbol) [0x0]
+
+2025-07-02 09:23:43,098 - INFO - Entered Email
+2025-07-02 09:23:53,596 - ERROR - Error while Entering the textPassword!9:Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2b4553+62419]
+	GetHandleVerifier [0x0x2b4594+62484]
+	(No symbol) [0x0xf2133]
+	(No symbol) [0x0x13a8fe]
+	(No symbol) [0x0x13ac9b]
+	(No symbol) [0x0x183052]
+	(No symbol) [0x0x15f4b4]
+	(No symbol) [0x0x18087a]
+	(No symbol) [0x0x15f266]
+	(No symbol) [0x0x12e852]
+	(No symbol) [0x0x12f6f4]
+	GetHandleVerifier [0x0x524833+2619059]
+	GetHandleVerifier [0x0x51fc4a+2599626]
+	GetHandleVerifier [0x0x2db0fa+221050]
+	GetHandleVerifier [0x0x2cb378+156152]
+	GetHandleVerifier [0x0x2d1d2d+183213]
+	GetHandleVerifier [0x0x2bc438+94904]
+	GetHandleVerifier [0x0x2bc5c2+95298]
+	GetHandleVerifier [0x0x2a771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+	(No symbol) [0x0]
+
+2025-07-02 09:24:03,849 - INFO - Entered Password
+2025-07-02 09:24:03,850 - INFO - Waiting for Duo authentication...
+2025-07-02 09:24:06,558 - ERROR - Error occurred: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x2b4553+62419]
+	GetHandleVerifier [0x0x2b4594+62484]
+	(No symbol) [0x0xf2133]
+	(No symbol) [0x0xe1b40]
+	(No symbol) [0x0xff912]
+	(No symbol) [0x0x165d6c]
+	(No symbol) [0x0x180159]
+	(No symbol) [0x0x15f266]
+	(No symbol) [0x0x12e852]
+	(No symbol) [0x0x12f6f4]
+	GetHandleVerifier [0x0x524833+2619059]
+	GetHandleVerifier [0x0x51fc4a+2599626]
+	GetHandleVerifier [0x0x2db0fa+221050]
+	GetHandleVerifier [0x0x2cb378+156152]
+	GetHandleVerifier [0x0x2d1d2d+183213]
+	GetHandleVerifier [0x0x2bc438+94904]
+	GetHandleVerifier [0x0x2bc5c2+95298]
+	GetHandleVerifier [0x0x2a771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+	(No symbol) [0x0]
+
+2025-07-02 09:24:49,181 - INFO - Automation script started
+2025-07-02 09:24:49,181 - INFO - Starting Webdriver
+2025-07-02 09:24:49,181 - INFO - ====== WebDriver manager ======
+2025-07-02 09:24:50,301 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 09:24:50,404 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 09:24:50,464 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 09:24:51,668 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 09:24:55,687 - INFO - Entered Email
+2025-07-02 09:25:00,331 - INFO - Entered Password
+2025-07-02 09:25:00,333 - INFO - Waiting for Duo authentication...
+2025-07-02 09:25:30,428 - INFO - Navigated to Deployments
+2025-07-02 09:25:47,383 - INFO - Trying deployment name: AutoXDeploy_092540
+2025-07-02 09:25:48,426 - INFO - Deployment name 'AutoXDeploy_092540' is unique.
+2025-07-02 09:25:48,941 - INFO - Selected CM Version: Recommended (1.0.3.435)
+2025-07-02 09:25:50,167 - INFO - Selected VPN Version: Recommended (5.1.9.113)
+2025-07-02 09:25:50,595 - INFO - Checked Diagnostics and Reporting Tool module
+2025-07-02 09:25:50,650 - INFO - Checked ISE Posture module
+2025-07-02 09:25:51,051 - INFO - Checked NVM XDR module
+2025-07-02 09:25:54,875 - INFO - Deployment created successfully.
+2025-07-02 09:26:10,028 - INFO - Full Installer downloaded...
+2025-07-02 09:26:10,029 - INFO - Deployment completed successfully.
+2025-07-02 09:26:55,045 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/83620be1b0e1c8d0a31f373567649341
+2025-07-02 10:26:58,233 - INFO - Automation script started
+2025-07-02 10:26:58,235 - INFO - Starting Webdriver
+2025-07-02 10:26:58,236 - INFO - ====== WebDriver manager ======
+2025-07-02 10:26:59,806 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 10:26:59,916 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 10:27:00,008 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 10:27:01,453 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 10:27:07,027 - INFO - Entered Email
+2025-07-02 10:27:10,804 - INFO - Entered Password
+2025-07-02 10:27:10,804 - INFO - Waiting for Duo authentication...
+2025-07-02 10:27:37,106 - INFO - Navigated to Deployments
+2025-07-02 10:27:54,175 - INFO - Trying deployment name: AutoXDeploy_102747
+2025-07-02 10:27:55,203 - INFO - Deployment name 'AutoXDeploy_102747' is unique.
+2025-07-02 10:27:55,365 - INFO - Selected CM Version: Recommended (1.0.3.435)
+2025-07-02 10:27:55,823 - INFO - Selected VPN Version: Recommended (5.1.9.113)
+2025-07-02 10:27:56,516 - INFO - Checked Diagnostics and Reporting Tool module
+2025-07-02 10:27:56,533 - INFO - Checked ISE Posture module
+2025-07-02 10:27:56,693 - INFO - Checked NVM XDR module
+2025-07-02 10:27:59,958 - INFO - Deployment created successfully.
+2025-07-02 10:28:15,050 - INFO - Full Installer downloaded...
+2025-07-02 10:28:15,050 - INFO - Deployment completed successfully.
+2025-07-02 10:29:10,879 - INFO - Execution completed successfully
+2025-07-02 10:29:14,472 - INFO - ===============================================================
+2025-07-02 10:29:14,472 - INFO - ====================INSTALLATION===============================
+2025-07-02 10:29:14,472 - INFO - ===============================================================
+2025-07-02 10:29:14,476 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_102747.exe
+2025-07-02 10:29:24,611 - INFO - [UI] Clicking Continue button...
+2025-07-02 10:29:28,084 - INFO - [UI] Continue button clicked.
+2025-07-02 10:30:13,094 - INFO - [UI] Closing installer...
+2025-07-02 10:30:15,325 - INFO - [UI] Installer closed
+2025-07-02 10:30:22,827 - INFO - Searched for 'Cisco Secure Client ', check the UI
+2025-07-02 10:30:24,948 - INFO - Opening File Explorer at: C:\Program Files\Cisco
+2025-07-02 10:30:33,450 - INFO - Found: C:\Program Files\Cisco
+2025-07-02 10:30:33,559 - INFO - Opening File Explorer at: C:\Program Files (x86)\Cisco
+2025-07-02 10:30:42,074 - INFO - Found: C:\Program Files (x86)\Cisco
+2025-07-02 10:30:42,183 - INFO - Opening File Explorer at: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 10:30:50,712 - INFO - Found: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 10:30:50,823 - INFO - Opening File Explorer at: C:\ProgramData\Cisco
+2025-07-02 10:30:59,312 - INFO - Found: C:\ProgramData\Cisco
+2025-07-02 10:30:59,422 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-02 10:31:07,943 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-02 10:31:08,052 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-02 10:31:16,576 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-02 10:31:16,685 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-02 10:31:25,215 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-02 10:31:25,325 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\VPN\ProfileC:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-02 10:31:33,891 - WARNING -  Not Found: C:\ProgramData\Cisco\Cisco Secure Client\VPN\ProfileC:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-02 10:31:34,000 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-02 10:31:42,526 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-02 10:31:42,634 - INFO - Opening file in Notepad: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cmid.exe.log
+2025-07-02 10:31:45,734 - INFO - Searching for keyword: version in Notepad
+2025-07-02 10:31:49,091 - INFO - Keyword 'version' search completed.
+2025-07-02 10:31:50,204 - INFO - Searching for keyword: BIOS UUID in Notepad
+2025-07-02 10:31:53,557 - INFO - Keyword 'BIOS UUID' search completed.
+2025-07-02 10:31:54,675 - INFO - Searching for keyword: Adapter MAC Address in Notepad
+2025-07-02 10:31:58,023 - INFO - Keyword 'Adapter MAC Address' search completed.
+2025-07-02 10:31:59,139 - INFO - Searching for keyword: ProxyDiscovery::ProxyDiscoverySync in Notepad
+2025-07-02 10:32:02,508 - INFO - Keyword 'ProxyDiscovery::ProxyDiscoverySync' search completed.
+2025-07-02 10:32:03,622 - INFO - Opening JSON file: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\cmidstore.json
+2025-07-02 10:32:09,687 - INFO - Searching for keyword: ucid in Notepad
+2025-07-02 10:32:13,039 - INFO - Keyword 'ucid' search completed.
+2025-07-02 10:32:14,379 - INFO - [INFO] Launching Event Viewer...
+2025-07-02 10:32:25,524 - INFO - [INFO] Connected to Event Viewer window.
+2025-07-02 10:32:32,832 - INFO - [INFO] Double-clicked Network Visibility Module.
+2025-07-02 10:33:40,037 - INFO - Installation check completed
+2025-07-02 10:33:40,038 - INFO - ====================INSTALLATION COMPLETED===============================
+2025-07-02 10:33:40,039 - INFO - Launching Cisco Secure Client...
+2025-07-02 10:33:48,723 - INFO - Main window loaded.
+2025-07-02 10:33:49,518 - INFO - Clicked Connect.
+2025-07-02 10:34:02,537 - ERROR - Error: name 'exit' is not defined
+2025-07-02 10:34:22,700 - INFO - ================Move deployment=================
+2025-07-02 10:34:22,700 - INFO - Starting Webdriver
+2025-07-02 10:34:22,701 - INFO - ====== WebDriver manager ======
+2025-07-02 10:34:23,777 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 10:34:23,862 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 10:34:23,929 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 10:34:25,056 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 10:34:30,564 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-02 10:34:30,736 - INFO - Entered Email
+2025-07-02 10:34:30,737 - INFO - Entering the text :Password!9
+2025-07-02 10:34:36,125 - INFO - Entered Password
+2025-07-02 10:34:36,125 - INFO - Waiting for Duo authentication...
+2025-07-02 10:35:09,404 - INFO - Navigated to clients
+2025-07-02 10:36:11,601 - INFO - Navigated to Device Events
+2025-07-02 10:36:18,321 - INFO - Successfully clicked on UID link.
+2025-07-02 10:37:11,384 - ERROR - Error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2b4553+62419]
+	GetHandleVerifier [0x0x2b4594+62484]
+	(No symbol) [0x0xf2133]
+	(No symbol) [0x0x13a8fe]
+	(No symbol) [0x0x13ac9b]
+	(No symbol) [0x0x183052]
+	(No symbol) [0x0x15f4b4]
+	(No symbol) [0x0x18087a]
+	(No symbol) [0x0x15f266]
+	(No symbol) [0x0x12e852]
+	(No symbol) [0x0x12f6f4]
+	GetHandleVerifier [0x0x524833+2619059]
+	GetHandleVerifier [0x0x51fc4a+2599626]
+	GetHandleVerifier [0x0x2db0fa+221050]
+	GetHandleVerifier [0x0x2cb378+156152]
+	GetHandleVerifier [0x0x2d1d2d+183213]
+	GetHandleVerifier [0x0x2bc438+94904]
+	GetHandleVerifier [0x0x2bc5c2+95298]
+	GetHandleVerifier [0x0x2a771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+	(No symbol) [0x0]
+
+2025-07-02 10:37:11,385 - INFO - Browser closed.
+2025-07-02 10:37:11,385 - INFO - Execution completed successfully
+2025-07-02 10:37:16,238 - INFO - ========== STARTING UNINSTALL ==========
+2025-07-02 10:37:16,238 - INFO - Looking for: Cisco Secure Client - AnyConnect VPN
+2025-07-02 10:37:24,810 - INFO - Launched uninstaller for: Cisco Secure Client - AnyConnect VPN 
+2025-07-02 10:37:30,588 - INFO - Clicked: Yes
+2025-07-02 10:37:33,768 - INFO - Handling multiple OK popups...
+2025-07-02 10:37:34,488 - INFO - Clicked: ok in 'Cisco Secure Client - XDR Network Visibility Module'
+2025-07-02 10:37:37,471 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:37:42,430 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:37:47,339 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:37:52,256 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:37:57,205 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:38:02,171 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:38:07,412 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:38:12,395 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:38:17,838 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:38:23,275 - INFO - Clicked: next in 'Cisco XDR - Client Management - Google Chrome'
+2025-07-02 10:38:27,337 - INFO - Waiting 70 seconds for uninstallation to complete...
+2025-07-02 10:39:37,344 - INFO - Looking for: Cisco Secure Client - Cloud Management
+2025-07-02 10:39:46,648 - INFO - Launched uninstaller for: Cisco Secure Client - Cloud Management
+2025-07-02 10:39:55,366 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-02 10:40:30,378 - INFO - Looking for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-02 10:40:39,228 - INFO - Launched uninstaller for: Cisco Secure Client - Diagnostics and Reporting Tool
+2025-07-02 10:40:45,104 - INFO - Clicked: Yes
+2025-07-02 10:40:48,128 - INFO - Waiting 35 seconds for uninstallation to complete...
+2025-07-02 10:41:23,145 - INFO - ========== UNINSTALL COMPLETED ==========
+2025-07-02 10:41:23,146 - INFO - ========== STARTING FOLDER CLEANUP ==========
+2025-07-02 10:41:23,161 - INFO - Opened folder: C:\Program Files\Cisco
+2025-07-02 10:41:28,166 - INFO - Deleted folder: C:\Program Files\Cisco
+2025-07-02 10:41:30,383 - INFO - Opened folder: C:\Program Files (x86)\Cisco
+2025-07-02 10:41:35,404 - INFO - Deleted folder: C:\Program Files (x86)\Cisco
+2025-07-02 10:41:37,611 - INFO - Opened folder: C:\ProgramData\Cisco
+2025-07-02 10:41:42,624 - INFO - Deleted folder: C:\ProgramData\Cisco
+2025-07-02 10:41:44,830 - INFO - Opened folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 10:41:49,836 - INFO - Deleted folder: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 10:41:52,028 - INFO - ========== FOLDER CLEANUP COMPLETE ==========
+2025-07-02 10:41:52,029 - INFO - ========== ALL CLEANUP COMPLETED ==========
+2025-07-02 10:53:24,601 - INFO - ================Move deployment=================
+2025-07-02 10:53:24,602 - INFO - Starting Webdriver
+2025-07-02 10:53:24,602 - INFO - ====== WebDriver manager ======
+2025-07-02 10:53:25,437 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 10:53:25,551 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 10:53:25,609 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 10:53:26,727 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 10:53:32,316 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-02 10:53:32,448 - INFO - Entered Email
+2025-07-02 10:53:32,448 - INFO - Entering the text :Password!9
+2025-07-02 10:53:36,241 - INFO - Entered Password
+2025-07-02 10:53:36,241 - INFO - Waiting for Duo authentication...
+2025-07-02 10:54:08,230 - INFO - Navigated to clients
+2025-07-02 10:55:09,278 - INFO - Navigated to Device Events
+2025-07-02 10:55:15,567 - INFO - Successfully clicked on UID link.
+2025-07-02 10:56:08,686 - ERROR - Error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2b4553+62419]
+	GetHandleVerifier [0x0x2b4594+62484]
+	(No symbol) [0x0xf2133]
+	(No symbol) [0x0x13a8fe]
+	(No symbol) [0x0x13ac9b]
+	(No symbol) [0x0x183052]
+	(No symbol) [0x0x15f4b4]
+	(No symbol) [0x0x18087a]
+	(No symbol) [0x0x15f266]
+	(No symbol) [0x0x12e852]
+	(No symbol) [0x0x12f6f4]
+	GetHandleVerifier [0x0x524833+2619059]
+	GetHandleVerifier [0x0x51fc4a+2599626]
+	GetHandleVerifier [0x0x2db0fa+221050]
+	GetHandleVerifier [0x0x2cb378+156152]
+	GetHandleVerifier [0x0x2d1d2d+183213]
+	GetHandleVerifier [0x0x2bc438+94904]
+	GetHandleVerifier [0x0x2bc5c2+95298]
+	GetHandleVerifier [0x0x2a771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+	(No symbol) [0x0]
+
+2025-07-02 10:56:08,687 - INFO - Browser closed.
+2025-07-02 10:56:08,691 - INFO - Execution completed successfully
+2025-07-02 11:00:18,910 - INFO - ================Move deployment=================
+2025-07-02 11:00:18,911 - INFO - Starting Webdriver
+2025-07-02 11:00:18,911 - INFO - ====== WebDriver manager ======
+2025-07-02 11:00:19,725 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 11:00:19,800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 11:00:19,859 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 11:00:21,009 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 11:00:27,613 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-02 11:00:27,819 - INFO - Entered Email
+2025-07-02 11:00:27,819 - INFO - Entering the text :Password!9
+2025-07-02 11:00:34,297 - INFO - Entered Password
+2025-07-02 11:00:34,297 - INFO - Waiting for Duo authentication...
+2025-07-02 11:01:07,360 - INFO - Navigated to clients
+2025-07-02 11:02:03,484 - INFO - Navigated to Device Events
+2025-07-02 11:02:09,703 - INFO - Successfully clicked on UID link.
+2025-07-02 11:02:47,146 - INFO - Browser closed.
+2025-07-02 11:02:47,147 - INFO - Execution completed successfully
+2025-07-02 12:17:23,188 - INFO - Automation script started
+2025-07-02 12:17:23,189 - INFO - Starting Webdriver
+2025-07-02 12:17:23,189 - INFO - ====== WebDriver manager ======
+2025-07-02 12:17:24,348 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 12:17:24,437 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 12:17:24,500 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 12:17:25,805 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 12:17:31,819 - INFO - Entered Email
+2025-07-02 12:17:36,767 - INFO - Entered Password
+2025-07-02 12:17:36,767 - INFO - Waiting for Duo authentication...
+2025-07-02 12:18:07,332 - INFO - Navigated to Deployments
+2025-07-02 12:18:25,837 - INFO - Trying deployment name: AutoXDeploy_121817
+2025-07-02 12:18:26,864 - INFO - Deployment name 'AutoXDeploy_121817' is unique.
+2025-07-02 12:18:27,204 - INFO - Selected CM Version: Recommended (1.0.3.435)
+2025-07-02 12:18:28,004 - INFO - Selected VPN Version: Recommended (5.1.9.113)
+2025-07-02 12:18:28,298 - INFO - Checked Umbrella module
+2025-07-02 12:18:28,336 - INFO - Checked Diagnostics and Reporting Tool module
+2025-07-02 12:18:28,379 - INFO - Checked ISE Posture module
+2025-07-02 12:18:28,677 - INFO - Checked NVM XDR module
+2025-07-02 12:18:32,301 - INFO - Deployment created successfully.
+2025-07-02 12:18:47,399 - INFO - Full Installer downloaded...
+2025-07-02 12:18:47,400 - INFO - Deployment completed successfully.
+2025-07-02 12:19:43,334 - INFO - Execution completed successfully
+2025-07-02 12:19:46,155 - INFO - ===============================================================
+2025-07-02 12:19:46,156 - INFO - ====================INSTALLATION===============================
+2025-07-02 12:19:46,156 - INFO - ===============================================================
+2025-07-02 12:19:46,158 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_121817.exe
+2025-07-02 12:19:56,312 - INFO - [UI] Clicking Continue button...
+2025-07-02 12:19:59,775 - INFO - [UI] Continue button clicked.
+2025-07-02 12:20:44,791 - INFO - [UI] Closing installer...
+2025-07-02 12:20:47,038 - INFO - [UI] Installer closed
+2025-07-02 12:20:54,579 - INFO - Searched for 'Cisco Secure Client ', check the UI
+2025-07-02 12:20:56,694 - INFO - Opening File Explorer at: C:\Program Files\Cisco
+2025-07-02 12:21:05,200 - INFO - Found: C:\Program Files\Cisco
+2025-07-02 12:21:05,308 - INFO - Opening File Explorer at: C:\Program Files (x86)\Cisco
+2025-07-02 12:21:13,847 - INFO - Found: C:\Program Files (x86)\Cisco
+2025-07-02 12:21:13,955 - INFO - Opening File Explorer at: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 12:21:22,489 - INFO - Found: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 12:21:22,598 - INFO - Opening File Explorer at: C:\ProgramData\Cisco
+2025-07-02 12:21:31,088 - INFO - Found: C:\ProgramData\Cisco
+2025-07-02 12:21:31,196 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-02 12:21:39,775 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-02 12:21:39,884 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-02 12:21:48,458 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-02 12:21:48,567 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-02 12:21:57,176 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-02 12:21:57,284 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\VPN\ProfileC:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-02 12:22:05,923 - WARNING -  Not Found: C:\ProgramData\Cisco\Cisco Secure Client\VPN\ProfileC:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-02 12:22:06,033 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-02 12:22:14,605 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-02 12:22:14,713 - INFO - Opening file in Notepad: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cmid.exe.log
+2025-07-02 12:22:17,776 - INFO - Searching for keyword: version in Notepad
+2025-07-02 12:22:21,144 - INFO - Keyword 'version' search completed.
+2025-07-02 12:22:22,255 - INFO - Searching for keyword: BIOS UUID in Notepad
+2025-07-02 12:22:25,649 - INFO - Keyword 'BIOS UUID' search completed.
+2025-07-02 12:22:26,766 - INFO - Searching for keyword: Adapter MAC Address in Notepad
+2025-07-02 12:22:30,153 - INFO - Keyword 'Adapter MAC Address' search completed.
+2025-07-02 12:22:31,275 - INFO - Searching for keyword: ProxyDiscovery::ProxyDiscoverySync in Notepad
+2025-07-02 12:22:34,706 - INFO - Keyword 'ProxyDiscovery::ProxyDiscoverySync' search completed.
+2025-07-02 12:22:35,832 - INFO - Opening JSON file: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\cmidstore.json
+2025-07-02 12:22:41,893 - INFO - Searching for keyword: "ucid": in Notepad
+2025-07-02 12:22:45,258 - INFO - Keyword '"ucid":' search completed.
+2025-07-02 12:22:46,589 - INFO - [INFO] Launching Event Viewer...
+2025-07-02 12:22:57,947 - INFO - [INFO] Connected to Event Viewer window.
+2025-07-02 12:23:09,408 - INFO - [INFO] Double-clicked Network Visibility Module.
+2025-07-02 12:24:16,675 - INFO - Installation check completed
+2025-07-02 12:24:16,675 - INFO - ====================INSTALLATION COMPLETED===============================
+2025-07-02 12:24:16,675 - INFO - Launching Cisco Secure Client...
+2025-07-02 13:46:57,517 - INFO - Automation script started
+2025-07-02 13:46:57,518 - INFO - Starting Webdriver
+2025-07-02 13:46:57,519 - INFO - ====== WebDriver manager ======
+2025-07-02 13:46:58,884 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 13:46:58,969 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 13:46:59,026 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 13:47:00,454 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 13:47:08,402 - INFO - Entered Email
+2025-07-02 13:47:14,488 - INFO - Entered Password
+2025-07-02 13:47:14,488 - INFO - Waiting for Duo authentication...
+2025-07-02 13:47:54,678 - INFO - Navigated to Deployments
+2025-07-02 13:48:11,664 - INFO - Trying deployment name: AutoXDeploy_134804
+2025-07-02 13:48:12,702 - INFO - Deployment name 'AutoXDeploy_134804' is unique.
+2025-07-02 13:48:13,245 - INFO - Selected CM Version: Latest (1.0.4.447)
+2025-07-02 13:48:14,597 - INFO - Selected VPN Version: Latest (5.1.10.233)
+2025-07-02 13:48:15,031 - INFO - Checked Umbrella module
+2025-07-02 13:48:15,082 - INFO - Checked ISE Posture module
+2025-07-02 13:48:15,478 - INFO - Checked NVM XDR module
+2025-07-02 13:48:19,230 - INFO - Deployment created successfully.
+2025-07-02 13:48:34,376 - INFO - Full Installer downloaded...
+2025-07-02 13:48:34,376 - INFO - Deployment completed successfully.
+2025-07-02 13:49:30,444 - INFO - Execution completed successfully
+2025-07-02 13:49:33,533 - INFO - ===============================================================
+2025-07-02 13:49:33,534 - INFO - ====================INSTALLATION===============================
+2025-07-02 13:49:33,534 - INFO - ===============================================================
+2025-07-02 13:49:33,535 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_134804.exe
+2025-07-02 13:49:43,710 - INFO - [UI] Clicking Continue button...
+2025-07-02 13:49:47,167 - INFO - [UI] Continue button clicked.
+2025-07-02 13:50:32,179 - INFO - [UI] Closing installer...
+2025-07-02 13:50:34,414 - INFO - [UI] Installer closed
+2025-07-02 13:50:41,942 - INFO - Searched for 'Cisco Secure Client ', check the UI
+2025-07-02 13:50:44,060 - INFO - Opening File Explorer at: C:\Program Files\Cisco
+2025-07-02 13:50:52,570 - INFO - Found: C:\Program Files\Cisco
+2025-07-02 13:50:52,680 - INFO - Opening File Explorer at: C:\Program Files (x86)\Cisco
+2025-07-02 13:51:01,188 - INFO - Found: C:\Program Files (x86)\Cisco
+2025-07-02 13:51:01,300 - INFO - Opening File Explorer at: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 13:51:09,850 - INFO - Found: C:\Users\Sateesh\AppData\Local\Cisco
+2025-07-02 13:51:09,959 - INFO - Opening File Explorer at: C:\ProgramData\Cisco
+2025-07-02 13:51:18,513 - INFO - Found: C:\ProgramData\Cisco
+2025-07-02 13:51:18,622 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-02 13:51:27,182 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Configuration
+2025-07-02 13:51:27,290 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-02 13:51:35,844 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cms.exe.log
+2025-07-02 13:51:35,951 - INFO - Opening File Explorer at: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-02 13:51:44,506 - INFO - Found: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_pm.exe.log
+2025-07-02 13:51:44,614 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-02 13:51:53,221 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\VPN\Profile
+2025-07-02 13:51:53,329 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-02 13:52:01,894 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\NVM
+2025-07-02 13:52:02,003 - INFO - Opening File Explorer at: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-02 13:52:10,518 - INFO - Found: C:\ProgramData\Cisco\Cisco Secure Client\ISE Posture
+2025-07-02 13:52:10,627 - INFO - Opening file in Notepad: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\csc_cmid.exe.log
+2025-07-02 13:52:13,715 - INFO - Searching for keyword: version in Notepad
+2025-07-02 13:52:17,078 - INFO - Keyword 'version' search completed.
+2025-07-02 13:52:18,188 - INFO - Searching for keyword: BIOS UUID in Notepad
+2025-07-02 13:52:21,593 - INFO - Keyword 'BIOS UUID' search completed.
+2025-07-02 13:52:22,706 - INFO - Searching for keyword: Adapter MAC Address in Notepad
+2025-07-02 13:52:26,123 - INFO - Keyword 'Adapter MAC Address' search completed.
+2025-07-02 13:52:27,234 - INFO - Searching for keyword: ProxyDiscovery::ProxyDiscoverySync in Notepad
+2025-07-02 13:52:30,654 - INFO - Keyword 'ProxyDiscovery::ProxyDiscoverySync' search completed.
+2025-07-02 13:52:31,778 - INFO - Opening JSON file: C:\Program Files\Cisco\Cisco Secure Client\CM\Data\cmidstore.json
+2025-07-02 13:52:37,864 - INFO - Searching for keyword: "ucid": in Notepad
+2025-07-02 13:52:41,236 - INFO - Keyword '"ucid":' search completed.
+2025-07-02 13:52:42,563 - INFO - [INFO] Launching Event Viewer...
+2025-07-02 13:52:54,312 - INFO - [INFO] Connected to Event Viewer window.
+2025-07-02 13:53:05,260 - INFO - [INFO] Double-clicked Network Visibility Module.
+2025-07-02 13:54:12,495 - INFO - Installation check completed
+2025-07-02 13:54:12,499 - INFO - ====================INSTALLATION COMPLETED===============================
+2025-07-02 13:54:12,500 - INFO - Launching Cisco Secure Client...
+2025-07-02 13:54:21,300 - INFO - Main window loaded.
+2025-07-02 13:54:22,931 - INFO - Clicked Connect.
+2025-07-02 13:54:35,949 - ERROR - Error: name 'exit' is not defined
+2025-07-02 13:54:55,697 - INFO - ================Move deployment=================
+2025-07-02 13:54:55,697 - INFO - Starting Webdriver
+2025-07-02 13:54:55,697 - INFO - ====== WebDriver manager ======
+2025-07-02 13:54:56,961 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 13:54:57,054 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 13:54:57,135 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 13:54:58,377 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 13:55:04,924 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-02 13:55:05,319 - INFO - Entered Email
+2025-07-02 13:55:05,319 - INFO - Entering the text :Password!9
+2025-07-02 13:55:09,805 - INFO - Entered Password
+2025-07-02 13:55:09,806 - INFO - Waiting for Duo authentication...
+2025-07-02 13:55:40,648 - INFO - Navigated to clients
+2025-07-02 13:56:28,552 - ERROR - Error occurred: 'str' object cannot be interpreted as an integer
+2025-07-02 13:56:28,553 - INFO - Browser closed.
+2025-07-02 13:56:28,553 - INFO - Execution completed successfully
+2025-07-02 13:56:33,952 - INFO - ========== STARTING UNINSTALL ==========
+2025-07-02 13:56:33,952 - INFO - Looking for: Cisco Secure Client - AnyConnect VPN
+2025-07-02 13:56:48,753 - WARNING - Exception during uninstall: {'title_re': '.*Programs and Features.*', 'top_level_only': True, 'backend': 'uia'}
+2025-07-02 13:56:48,753 - WARNING - Cisco Secure Client - AnyConnect VPN not found.
+2025-07-02 13:56:48,753 - INFO - Looking for: Cisco Secure Client - Cloud Management
+2025-07-02 14:01:45,905 - INFO - ================Move deployment=================
+2025-07-02 14:01:45,906 - INFO - Starting Webdriver
+2025-07-02 14:01:45,906 - INFO - ====== WebDriver manager ======
+2025-07-02 14:01:47,409 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 14:01:47,500 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-02 14:01:47,566 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-02 14:01:48,796 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-02 14:01:54,348 - INFO - Entering the text :kspriya+qa@cisco.com
+2025-07-02 14:01:54,611 - INFO - Entered Email
+2025-07-02 14:01:54,611 - INFO - Entering the text :Password!9
+2025-07-02 14:01:59,169 - INFO - Entered Password
+2025-07-02 14:01:59,169 - INFO - Waiting for Duo authentication...
+2025-07-02 14:02:32,750 - INFO - Navigated to clients
+2025-07-02 14:03:25,782 - INFO - Navigated to Device Events
+2025-07-02 14:03:33,968 - INFO - Successfully clicked on UID link.
+2025-07-08 09:22:44,396 - INFO - Automation script started
+2025-07-08 09:22:44,396 - INFO - Starting Webdriver
+2025-07-08 09:22:44,397 - INFO - ====== WebDriver manager ======
+2025-07-08 09:22:45,768 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:22:45,860 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:22:45,930 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:22:46,086 - INFO - WebDriver version 138.0.7204.92 selected
+2025-07-08 09:22:46,090 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-08 09:22:46,090 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/win32/chromedriver-win32.zip
+2025-07-08 09:22:46,367 - INFO - Driver downloading response is 200
+2025-07-08 09:22:47,617 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:22:48,095 - INFO - Driver has been saved in cache [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92]
+2025-07-08 09:22:49,720 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-08 09:22:54,004 - INFO - Entered Email
+2025-07-08 09:22:55,609 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/0673d9cbb4ccc749e8e1c40b57992b35
+2025-07-08 09:23:28,768 - INFO - Automation script started for Network installer
+2025-07-08 09:23:28,768 - INFO - Starting Webdriver
+2025-07-08 09:23:28,768 - INFO - ====== WebDriver manager ======
+2025-07-08 09:23:29,876 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:23:29,970 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:23:30,043 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-08 09:24:05,852 - INFO - Automation script started
+2025-07-08 09:24:05,853 - INFO - Starting Webdriver
+2025-07-08 09:24:05,853 - INFO - ====== WebDriver manager ======
+2025-07-08 09:24:07,014 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:24:07,090 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:24:07,152 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-08 09:24:13,950 - INFO - Automation script started
+2025-07-08 09:24:13,950 - INFO - Starting Webdriver
+2025-07-08 09:24:13,950 - INFO - ====== WebDriver manager ======
+2025-07-08 09:24:15,022 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:24:15,115 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:24:15,204 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-08 09:24:48,230 - INFO - ===============================================================
+2025-07-08 09:24:48,232 - INFO - ====================INSTALLATION===============================
+2025-07-08 09:24:48,232 - INFO - ===============================================================
+2025-07-08 09:24:48,233 - INFO - Starting installation: C:\Users\Sateesh\Downloads\csc-deploy-full-AutoXDeploy_142857.exe
+2025-07-08 09:25:30,270 - INFO - ================Move deployment=================
+2025-07-08 09:25:30,270 - INFO - Starting Webdriver
+2025-07-08 09:25:30,270 - INFO - ====== WebDriver manager ======
+2025-07-08 09:25:31,400 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:25:31,476 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:25:31,537 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-08 09:25:32,675 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-08 09:25:35,545 - INFO - Browser closed.
+2025-07-08 09:25:35,545 - INFO - Execution completed successfully
+2025-07-08 09:53:54,070 - INFO - Automation script started
+2025-07-08 09:53:54,071 - INFO - Starting Webdriver
+2025-07-08 09:53:54,071 - INFO - ====== WebDriver manager ======
+2025-07-08 09:53:55,273 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:53:55,349 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 09:53:55,410 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-08 09:53:56,637 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-08 09:54:03,447 - ERROR - Error while Entering the textkspriya+qa@cisco.com:Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d2133]
+	(No symbol) [0x0x8c1b40]
+	(No symbol) [0x0x8df912]
+	(No symbol) [0x0x945d6c]
+	(No symbol) [0x0x960159]
+	(No symbol) [0x0x93f266]
+	(No symbol) [0x0x90e852]
+	(No symbol) [0x0x90f6f4]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	GetHandleVerifier [0x0xa9c438+94904]
+	GetHandleVerifier [0x0xa9c5c2+95298]
+	GetHandleVerifier [0x0xa8771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-08 09:54:03,508 - ERROR - Error clicking element idp-discovery-submit:Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d1f90]
+	(No symbol) [0x0x90db48]
+	(No symbol) [0x0x93f326]
+	(No symbol) [0x0x93af15]
+	(No symbol) [0x0x93a496]
+	(No symbol) [0x0x8a3a45]
+	(No symbol) [0x0x8a3f9e]
+	(No symbol) [0x0x8a442d]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	(No symbol) [0x0x8a3710]
+	(No symbol) [0x0x8a2f1d]
+	GetHandleVerifier [0x0xe38b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-08 09:54:03,510 - INFO - Entered Email
+2025-07-08 09:54:03,512 - ERROR - Error while Entering the textPassword!(:Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d1f90]
+	(No symbol) [0x0x90db48]
+	(No symbol) [0x0x93f326]
+	(No symbol) [0x0x93af15]
+	(No symbol) [0x0x93a496]
+	(No symbol) [0x0x8a3a45]
+	(No symbol) [0x0x8a3f9e]
+	(No symbol) [0x0x8a442d]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	(No symbol) [0x0x8a3710]
+	(No symbol) [0x0x8a2f1d]
+	GetHandleVerifier [0x0xe38b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-08 09:54:03,516 - ERROR - Error clicking element okta-signin-submit:Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d1f90]
+	(No symbol) [0x0x90db48]
+	(No symbol) [0x0x93f326]
+	(No symbol) [0x0x93af15]
+	(No symbol) [0x0x93a496]
+	(No symbol) [0x0x8a3a45]
+	(No symbol) [0x0x8a3f9e]
+	(No symbol) [0x0x8a442d]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	(No symbol) [0x0x8a3710]
+	(No symbol) [0x0x8a2f1d]
+	GetHandleVerifier [0x0xe38b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-08 09:54:03,517 - INFO - Entered Password
+2025-07-08 09:54:03,517 - INFO - Waiting for Duo authentication...
+2025-07-08 09:54:03,520 - ERROR - Error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d1f90]
+	(No symbol) [0x0x90db48]
+	(No symbol) [0x0x93f326]
+	(No symbol) [0x0x93af15]
+	(No symbol) [0x0x93a496]
+	(No symbol) [0x0x8a3a45]
+	(No symbol) [0x0x8a3f9e]
+	(No symbol) [0x0x8a442d]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	(No symbol) [0x0x8a3710]
+	(No symbol) [0x0x8a2f1d]
+	GetHandleVerifier [0x0xe38b8c+3881484]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-08 13:59:43,012 - INFO - Automation script started
+2025-07-08 13:59:43,014 - INFO - Starting Webdriver
+2025-07-08 13:59:43,016 - INFO - ====== WebDriver manager ======
+2025-07-08 13:59:45,109 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 13:59:45,209 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-08 13:59:45,276 - INFO - Driver [C:\Users\Sateesh\.wdm\drivers\chromedriver\win64\138.0.7204.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-08 13:59:46,742 - INFO - Opening URL: https://xdr.test.iroh.site/
+2025-07-08 13:59:52,638 - INFO - Entered Email
+2025-07-08 13:59:54,773 - ERROR - Error while Entering the textPassword!9:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d2133]
+	(No symbol) [0x0x8b0fd9]
+	(No symbol) [0x0x945b9e]
+	(No symbol) [0x0x960159]
+	(No symbol) [0x0x93f266]
+	(No symbol) [0x0x90e852]
+	(No symbol) [0x0x90f6f4]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	GetHandleVerifier [0x0xa9c438+94904]
+	GetHandleVerifier [0x0xa9c5c2+95298]
+	GetHandleVerifier [0x0xa8771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-08 13:59:54,778 - ERROR - Error clicking element okta-signin-submit:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d2133]
+	(No symbol) [0x0x8b0fd9]
+	(No symbol) [0x0x945b9e]
+	(No symbol) [0x0x960159]
+	(No symbol) [0x0x93f266]
+	(No symbol) [0x0x90e852]
+	(No symbol) [0x0x90f6f4]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	GetHandleVerifier [0x0xa9c438+94904]
+	GetHandleVerifier [0x0xa9c5c2+95298]
+	GetHandleVerifier [0x0xa8771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+2025-07-08 13:59:54,778 - INFO - Entered Password
+2025-07-08 13:59:54,779 - INFO - Waiting for Duo authentication...
+2025-07-08 13:59:54,783 - ERROR - Error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d2133]
+	(No symbol) [0x0x8b0fd9]
+	(No symbol) [0x0x945b9e]
+	(No symbol) [0x0x960159]
+	(No symbol) [0x0x93f266]
+	(No symbol) [0x0x90e852]
+	(No symbol) [0x0x90f6f4]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	GetHandleVerifier [0x0xa9c438+94904]
+	GetHandleVerifier [0x0xa9c5c2+95298]
+	GetHandleVerifier [0x0xa8771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+

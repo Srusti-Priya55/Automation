@@ -1,0 +1,50 @@
+Error while Entering the textPassword!9:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d2133]
+	(No symbol) [0x0x8b0fd9]
+	(No symbol) [0x0x945b9e]
+	(No symbol) [0x0x960159]
+	(No symbol) [0x0x93f266]
+	(No symbol) [0x0x90e852]
+	(No symbol) [0x0x90f6f4]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	GetHandleVerifier [0x0xa9c438+94904]
+	GetHandleVerifier [0x0xa9c5c2+95298]
+	GetHandleVerifier [0x0xa8771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+
+Error clicking element okta-signin-submit:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0xa94553+62419]
+	GetHandleVerifier [0x0xa94594+62484]
+	(No symbol) [0x0x8d2133]
+	(No symbol) [0x0x8b0fd9]
+	(No symbol) [0x0x945b9e]
+	(No symbol) [0x0x960159]
+	(No symbol) [0x0x93f266]
+	(No symbol) [0x0x90e852]
+	(No symbol) [0x0x90f6f4]
+	GetHandleVerifier [0x0xd04833+2619059]
+	GetHandleVerifier [0x0xcffc4a+2599626]
+	GetHandleVerifier [0x0xabb0fa+221050]
+	GetHandleVerifier [0x0xaab378+156152]
+	GetHandleVerifier [0x0xab1d2d+183213]
+	GetHandleVerifier [0x0xa9c438+94904]
+	GetHandleVerifier [0x0xa9c5c2+95298]
+	GetHandleVerifier [0x0xa8771a+9626]
+	BaseThreadInitThunk [0x0x75d05d49+25]
+	RtlInitializeExceptionChain [0x0x7747d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7747d021+561]
+

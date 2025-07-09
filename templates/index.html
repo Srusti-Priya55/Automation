@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XDR Automation</title>
+  <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #dfefff, #e9f0f7);
+            padding: 40px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #003b73;
+            margin-bottom: 30px;
+        }
+
+        label {
+            font-weight: 600;
+            margin-top: 18px;
+            display: block;
+            color: #333;
+        }
+
+        select,
+        input[type="email"],
+        input[type="password"],
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #ccd5e0;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .checkbox-group,
+        .radio-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .checkbox-group label,
+        .radio-group label {
+            font-weight: normal;
+            background-color: #f4f7fa;
+            padding: 6px 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 14px 24px;
+            font-size: 16px;
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        .progress-bar {
+            margin-top: 30px;
+        }
+
+        progress {
+            width: 100%;
+            height: 22px;
+            border-radius: 8px;
+            background-color: #f0f0f0;
+        }
+
+        progress::-webkit-progress-bar {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+        }
+
+        progress::-webkit-progress-value {
+            background-color: #0078d7;
+            border-radius: 8px;
+        }
+
+        .progress-label {
+            margin-top: 8px;
+            text-align: right;
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .report-buttons {
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .report-buttons button {
+            background-color: #28a745;
+            width: 100%;
+        }
+
+        .report-buttons button:hover {
+            background-color: #218838;
+        }
+
+        @media (max-width: 600px) {
+            .report-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+  <h1>XDR Automation</h1>
+  <form method="POST" action="/run">
+
+    <label>Portal:</label>
+    <select name="env" id="env">
+      <option value="QA">QA</option>
+      <option value="PROD.US">PROD [NAM]</option>
+      <option value="PROD.EU">PROD [EU]</option>
+      <option value="PROD.APJC">PROD [APJC]</option>
+    </select>
+
+    <label>Build Type:</label>
+    <div class="radio-group">
+      <label><input type="radio" name="build_type" value="fresh" onchange="toggleBuildSections()"> Fresh Build</label>
+      <label><input type="radio" name="build_type" value="upgrade" onchange="toggleBuildSections()"> Upgrade Build</label>
+    </div>
+
+    <!-- 🔽 Fresh Build Fields -->
+<div id="fresh-fields" style="display:none;">
+  <label>CM Build:</label>
+  <select name="cm_build" id="cm_build"></select>
+
+  <label>CSC Build:</label>
+  <select name="vpn_build" id="vpn_build"></select>
+
+  <label>Modules:</label>
+  <div class="checkbox-group">
+    <label><input type="checkbox" name="modules" value="Umbrella"> Umbrella</label>
+    <label><input type="checkbox" name="modules" value="ISE Posture"> ISE Posture</label>
+    <label><input type="checkbox" name="modules" value="DART"> DART</label>
+    <label><input type="checkbox" name="modules" value="Secure Firewall Posture"> Secure Firewall Posture</label>
+    <label><input type="radio" name="modules" value="NVM"> NVM</label>
+    <label><input type="radio" name="modules" value="NVM-XDR"> NVM-XDR</label>
+  </div>
+</div>
+
+
+<div id="upgrade-fields" style="display:none;">
+
+  <label for="deployment">DEPLOYMENT</label>
+  <select class="form-control" id="deployment" name="deployment">
+    <option>Loading deployments...</option>
+  </select>
+  <label>Upgrade CM Build:</label>
+  <select name="cm_upgrade_build" id="cm_upgrade_build"></select>
+
+  <label>Upgrade CSC Build:</label>
+  <select name="vpn_upgrade_build" id="vpn_upgrade_build"></select>
+
+
+
+  <label>Modules:</label>
+  <div class="checkbox-group">
+    <label><input type="checkbox" name="modules" value="Umbrella"> Umbrella</label>
+    <label><input type="checkbox" name="modules" value="ISE Posture"> ISE Posture</label>
+    <label><input type="checkbox" name="modules" value="DART"> DART</label>
+    <label><input type="checkbox" name="modules" value="Secure Firewall Posture"> Secure Firewall Posture</label>
+    <label><input type="radio" name="modules" value="NVM"> NVM</label>
+    <label><input type="radio" name="modules" value="NVM-XDR"> NVM-XDR</label>
+  </div>
+</div>
+
+
+    <label for="move_deployment">Move Deployment (Optional):</label>
+    <select id="move_deployment" name="move_deployment">
+        <option value="">None</option>
+    </select>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Password:</label>
+    <input type="password" name="password" required>
+
+    <label>Installer Type:</label>
+    <div class="radio-group">
+      <label><input type="radio" name="installer" value="full" checked> Full Installer</label>
+      <label><input type="radio" name="installer" value="network"> Network Installer</label>
+    </div>
+
+    <button type="submit">🚀 Run Automation</button>
+
+    <div class="progress-bar">
+      <label class="progress-label"><span id="progress-text">0%</span></label>
+      <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+  </form>
+
+  <label>Live Logs:</label>
+  <div id="log-box" style="height: 250px; overflow-y: scroll; background: #f4f7fa; border: 1px solid #ccc; padding: 10px; font-family: monospace; font-size: 13px; border-radius: 6px;"></div>
+
+  <div class="report-buttons">
+    <button onclick="saveLogs()">💾 Save Logs</button>
+  </div>
+</div>
+
+<script>
+  function toggleBuildSections() {
+    const type = document.querySelector('input[name="build_type"]:checked')?.value;
+    document.getElementById("fresh-fields").style.display = type === "fresh" ? "block" : "none";
+    document.getElementById("upgrade-fields").style.display = type === "upgrade" ? "block" : "none";
+  }
+
+  function streamLogs() {
+    const logBox = document.getElementById("log-box");
+    const eventSource = new EventSource("/stream-logs");
+    eventSource.onmessage = function(event) {
+      logBox.innerText += event.data + "\n";
+      logBox.scrollTop = logBox.scrollHeight;
+    };
+    eventSource.onerror = function() {
+      eventSource.close();
+    };
+  }
+
+  function saveLogs() {
+    const logBox = document.getElementById("log-box");
+    const text = logBox.innerText;
+    const blob = new Blob([text], { type: "text/plain" });
+    const timestamp = new Date().toISOString().replace(/[-:T]/g, "_").slice(0, 15);
+    const filename = `Automation_${timestamp}.log`;
+    const link = document.createElement("a");
+    link.href = window.URL.createObjectURL(blob);
+    link.download = filename;
+    link.click();
+  }
+
+  async function loadBuildVersions(env) {
+    const cmBuild = document.getElementById("cm_build");
+    const vpnBuild = document.getElementById("vpn_build");
+    const cmUpgrade = document.getElementById("cm_upgrade_build");
+    const vpnUpgrade = document.getElementById("vpn_upgrade_build");
+
+    cmBuild.innerHTML = '';
+    vpnBuild.innerHTML = '';
+    cmUpgrade.innerHTML = '';
+    vpnUpgrade.innerHTML = '';
+
+    try {
+      const res = await fetch(`/api/builds?env=${env}`);
+      const data = await res.json();
+
+      (data.cm || []).forEach(version => {
+        cmBuild.append(new Option(version, version));
+        cmUpgrade.append(new Option(version, version));
+      });
+
+      (data.csc || []).forEach(version => {
+        vpnBuild.append(new Option(version, version));
+        vpnUpgrade.append(new Option(version, version));
+      });
+    } catch (err) {
+      cmBuild.innerHTML = '<option>Error loading CM</option>';
+      vpnBuild.innerHTML = '<option>Error loading CSC</option>';
+    }
+  }
+
+  function loadDeployments(env) {
+    const deploymentDropdown = document.getElementById("deployment");
+    deploymentDropdown.innerHTML = '<option disabled selected>Loading deployments...</option>';
+
+    fetch(`/api/deployments?env=${env}`)
+      .then(response => response.json())
+      .then(data => {
+        deploymentDropdown.innerHTML = '';
+        data.forEach(dep => {
+          const option = document.createElement("option");
+          option.value = dep;
+          option.textContent = dep;
+          deploymentDropdown.appendChild(option);
+        });
+      })
+      .catch(error => {
+        console.error("Error loading deployments:", error);
+      });
+  }
+  function loadMoveDeployments(env) {
+    const moveDeploymentDropdown = document.getElementById("move_deployment");
+    moveDeploymentDropdown.innerHTML = '<option value="">None</option>';
+
+    fetch(`/api/deployments?env=${env}`)
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(dep => {
+                const option = document.createElement("option");
+                option.value = dep;
+                option.textContent = dep;
+                moveDeploymentDropdown.appendChild(option);
+            });
+        })
+        .catch(error => {
+            console.error("Error loading move deployments:", error);
+        });
+    }
+
+  function setupEnvChangeListener() {
+    const envSelect = document.getElementById("env");
+    envSelect.addEventListener("change", function () {
+      loadBuildVersions(this.value);
+      loadDeployments(this.value);
+      loadMoveDeployments(this.value);
+    });
+    loadBuildVersions(envSelect.value);
+    loadDeployments(envSelect.value);
+    loadMoveDeployments(envSelect.value);
+  }
+
+  streamLogs();
+  setupEnvChangeListener();
+  updateProgressBar();
+</script>
+</body>
+</html>
+
+
+
+

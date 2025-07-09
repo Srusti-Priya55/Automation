@@ -1,0 +1,17 @@
+{
+    "LOGIN_URL": "https://xdr.test.iroh.site/",
+    "EMAIL": "kspriya+qa@cisco.com",
+    "PASSWORD": "Password!9",
+    "MODULES": [
+        "Umbrella",
+        "ISE Posture"
+    ],
+    "BUILD_TYPE": "fresh",
+    "INSTALLER_TYPE": "full",
+    "CM_BUILD": "Recommended (1.0.3.435)",
+    "VPN_BUILD": "Recommended (5.1.9.113)",
+    "CM_UPGRADE_BUILD": "Under_test (1.0.4.447)",
+    "VPN_UPGRADE_BUILD": "Under_test (5.1.11.107)",
+    "DEPLOYMENT": "XDR Default Deployment for Windows / amd64",
+    "MOVE_DEPLOYMENT": ""
+}
